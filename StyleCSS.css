@@ -1,0 +1,294 @@
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 80%;
+    min-height: 100vh;
+    background-image: url(SE.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+    width: 300px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight:bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#6F3575;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover{
+    color:#19BFE4;
+}
+
+.btn{
+    text-decoration: none;
+    color: #6F3575;
+    font-size: large;
+    font-family: Arial;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: #96d7e6;
+    padding: 10px;
+    border-radius: 30px;
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 50px;
+    color: #19BFE4;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    animation-delay: 0.5s;
+}
+.content.btn{
+    padding:15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+.feature-img{
+    width: 600px;
+    position: absolute;
+    bottom:0;
+    right:0.5%;
+}
+.feature-img.anim{
+    animation-delay: 1.5s
+}
+.anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{ 100%{
+    opacity:1;
+    transform: translateY(0px);
+
+}}
+
+.products{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+}
+.products h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6F3575
+}
+.products p{
+    color:#19BFE4;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    padding:2px;
+
+}
+.row1{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.row2{
+    margin-top:2%;
+    display:flex;
+    justify-content: space-between;
+}
+.prod-col{
+    flex-basis: 30%;
+    background:#b4e2ec;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    transition: 0.5s;
+}
+.prod-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+.prod-col p {
+    color:black
+}
+
+.quote{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.quote h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6F3575
+}
+.quote p{
+    color:#19BFE4;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    padding:2px;
+}
+.form{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)),
+    url(https://vgos.org/public/frontend/images/holistic-gallery1/04.jpg);
+    background-size:cover; 
+    background-position:center;
+    padding-top:2%;
+    padding-left: 5%;
+    border-radius: 25px;
+}
+form{
+    text-align: left;
+    padding-top:50px;
+    flex-basis: 10%;
+    border-radius: 10px;
+    margin-bottom:10%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.banner{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+.contactus{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+}
+.contactus h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6F3575
+}
+.contactus h3{
+    text-align:left;
+    font-family:'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.contactus a{
+    font-weight:lighter;
+    color:#00bae3;
+}
+.box {
+    display: flex;
+   justify-content: space-between;
+}
+.box .details {
+    flex-basis: 80%;
+    background:white;
+    text-align:justify;
+ }
+.box .gmap {
+    flex-basis: 80%;
+    background:white;
+}
+.about{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6F3575
+}
+.about p{
+    color:black;
+    font-weight:bold;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    padding:2px;
+}
+.featbox{
+    padding-top:2%;
+}
+.featbox h1{
+    text-align:center;
+    font-size: 40px;
+    font-weight:bold;
+    color:#6F3575
+}
+.featrow1{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.featrow2{
+    margin-top:2%;
+    display:flex;
+    justify-content: space-between;
+}
+.feat{
+    flex-basis: 31%;
+    background:#96d7e6;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    transition: 0.5s;
+}
+.feat:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+}
+.feat p {
+    color:#6F3575;
+    text-align:center;
+    font-family:'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.footer p {
+    text-align:center;
+    font-family:'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top:2px;
+}
